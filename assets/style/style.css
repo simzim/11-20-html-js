@@ -241,3 +241,49 @@ svg{
 .hamburger.active .bar3{
     transform: rotate(45deg) translate(-6px, -7px);
 }
+
+
+/* Modalinio lango stilius */
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    z-index: 100;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    margin: 15% auto;
+}
+
+.modal-content h2, .modal-content p{
+    color: #000;
+    line-height: 1.5;
+    padding: 10px 0 20px 0;
+}
+
+.modal-header{
+    min-height: 50px;
+    background-color: #FF5A37;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.close {
+    color: #ffffff;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: #5B0E4E;
+}
